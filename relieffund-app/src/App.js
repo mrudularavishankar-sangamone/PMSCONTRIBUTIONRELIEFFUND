@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="App-header">
         <h1> Contribution to PM's Relief Fund </h1>
-        <p> Amount Collected: ₹ 1000000 </p>
+        <p className = 'amountCollected'> Amount Collected: ₹ 1000000 </p>
       </div>
       
       <div>
