@@ -1,10 +1,18 @@
 import './App.css';
+import DonationForm from './pages/DonationForm';
 
 function App() {
   return (
-    <header>
-      <p> PMs Relief Fund </p>
-    </header>
+    <>
+      <div className="App-header">
+        <h1> Contribution to PM's Relief Fund </h1>
+        <p> Amount Collected: Rs. 1000000 </p>
+      </div>
+      
+      <div>
+        <DonationForm />
+      </div>
+    </>
   );
 }
 
